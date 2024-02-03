@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { Contextpr } from './Context/Context';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import index from './index.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Contextpr>
+      <App />
+    </Contextpr>
   </React.StrictMode>
 );
 

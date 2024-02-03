@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&family=Roboto:wght@500&display=swap');
+
+.gridimag {
+    margin-top: 3.9em;
+    display: flex;
+    padding: 4em 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img1 {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0em 3em;
+
+}
+
+.img23 {
+    height: 370px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+
+.img2,
+.img3 {
+    height: 160px;
+    margin-bottom: 1.9em;
+
+}
+
+.img1 img,
+.img2 img,
+.img3 img {
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px 1px rgb(194, 182, 182);
+}
+
+.Features span {
+    align-items: center;
+    align-content: center;
+
+    display: flex;
+    justify-content: center;
+    font-size: 2.1em;
+
+
+}
+
+.apidata {
+    padding: 1em 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1em;
+
+
+}
+
+.subapi {
+    border: 1px solid rgb(149, 148, 148);
+    height: 270px;
+    width: 15em;
+    box-shadow: 1px 1px 10px 1px rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0.4em;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.subapi .item {
+    height: 67%;
+
+}
+
+.subapi .star {
+    height: 10%;
+
+}
+
+
+.item img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.star i {
+    font-size: 20px;
+    color: rgb(247, 247, 86);
+    margin: 0.2em;
+}
+
+.tit {
+    margin: 0.4em;
+}
+
+.subapi:hover {
+    background-color: rgb(189, 7, 7);
+    color: white;
+}
+
+.afterapi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+
+}
+
+.afterapi img {
+    height: 300px;
+    margin: 1em;
+    width: 42%;
+    object-fit: cover;
+    box-shadow: 1px 1px 14px 1px rgb(64, 64, 65);
+    object-position: center;
+}
+
+.selling h2 {
+    text-align: center;
+    margin: 1.5em;
+}
+
+.Discount {
+    position: relative;
+    /* border: 2px solid black; */
+    padding: 2em;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Discount .redback {
+
+    background: #d52b3e;
+    color: white;
+    padding: 2em;
+    position: absolute;
+    margin: auto;
+    width: 60%;
+}
+
+.Discount .redback span {
+    font-family: 'Lobster', sans-serif;
+    font-size: 2em;
+}
+
+.redback .percent b {
+
+    font-size: 4em;
+    color: rgb(198, 198, 14);
+
+}
+
+.percent sup {
+    font-size: 1em;
+}
+
+.pp {
+    padding: 1em;
+    color: aliceblue;
+
+    font-style: italic;
+}
+
+.Discount button {
+    padding: 0.5em 3em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1em;
+    background-color: #f09398;
+    color: #d52b3e;
+    font-weight: 600;
+    outline: none;
+}
+
+.Discount button:hover {
+    background-color: #ec777d;
+}
+
+.disimage {
+    position: absolute;
+    z-index: 90;
+    /* border: 2px solid black; */
+    height: 280px;
+
+    object-fit: cover;
+    overflow: hidden;
+    object-position: center;
+}
+
+.disimage img {
+    height: 100%;
+}
