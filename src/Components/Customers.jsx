@@ -148,7 +148,7 @@ const Customers = () => {
                                 cusapi.map((val) => {
                                     return (
                                         <>
-                                            <div className="mainbox mx-10  w-[260px] h-[300px]">
+                                            <div className="mainbox mx-10  w-[260px] h-[340px]">
                                                 <div className="headin">{val.heading}</div>
                                                 <div className=" text-xs p-0 m-0">{val.para}</div>
                                                 <div className="profile"><div className="pro"><img src={val.pic} alt="" /></div></div>

@@ -43,11 +43,11 @@ const AboutChoose = () => {
                     {
                         choose.map((item) => {
                             return (
-                                <div className='flex bg-slate-100 p-4  w-[500px] m-[1em]'>
+                                <div className='flex bg-slate-100 p-4 w-[96%] sm:w-[500px] my-2 sm:m-[1em] justify-center '>
                                     <div className='h-[100px] w-[200px]'><img src={item.url} alt="" className='h-[100%] w-[100%] object-contain' /></div>
                                     <div className='flex flex-col mx-2 justify-center'>
-                                        <span className='font-bold text-xl'>{item.name}</span>
-                                        <p className='text-sm'>{item.title}</p>
+                                        <span className='font-bold  text-sm sm:text-xl my-2'>{item.name}</span>
+                                        <p className=' text-xs sm:text-sm'>{item.title}</p>
                                     </div>
                                 </div>
                             )

@@ -19,7 +19,7 @@ export default function Home() {
                 <div className="pic1 x"> <img src={pic1} alt="" /></div>
 
                 <div className="paraandpic">
-                    <div className="para"><p>TRADITION <span>MEETS</span> FASHION</p>
+                    <div className="para "><p>TRADITION <span>MEETS</span> FASHION</p>
                         <button>Explore</button></div>
                     <div className="anti hidden  sm:flex">
                         <img src={pic2} alt="" />
