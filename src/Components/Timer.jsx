@@ -41,7 +41,7 @@ const Timer = () => {
                                     <p>Days</p>
                                 </div>
                                 <div className="bg-white h-[60px] w-[60px] flex flex-col items-center justify-center mx-1 "><span className='font-bold text-3xl'>{
-                                    hour > 9 ? hour : `0 ${day}`
+                                    hour > 9 ? hour : `${day}`
                                 }</span>
                                     <p >Hours</p></div>
                                 <div className="bg-white h-[60px] w-[60px] flex flex-col items-center justify-center mx-1"><span className='font-bold text-3xl'>{min}</span><p className='text-xs'>Minutes</p></div>

@@ -13,11 +13,11 @@ const Kids = () => {
             <h1 className='text-center text-5xl my-16 font-bold'>Our Products</h1>
             <Apicall></Apicall>
             <div className='p-8 bg-red-500 flex justify-center my-16'>
-                <span className=' text-white font-bold text-2xl'>Loving EveryThing ??? Rate Us Now !!!</span>
+                <span className=' text-white font-bold  text-lg sm:text-2xl'>Loving EveryThing ??? Rate Us Now !!!</span>
             </div>
             <h1 className='mx-6 text-3xl my-16 font-bold'>Our Categories</h1>
 
-            <div className=' flex justify-center my-4'>
+            <div className=' flex justify-center my-4 flex-wrap '>
 
                 <div className=' border border-black p-10 mx-8 bg-slate-50'>
                     <span className='text-xl font-semibold p-6'>Baby Clothes</span>
@@ -30,7 +30,7 @@ const Kids = () => {
 
                     </ul>
                 </div>
-                <div className=' border border-black p-10 mx-8 bg-slate-50'>
+                <div className=' border border-black p-10 mx-8 bg-slate-50 m-2'>
                     <span className='text-xl font-semibold p-6'>Baby Clothes</span>
                     <ul className='space-y-2 my-4'>
                         <li className='list-disc'>Napkins</li>
@@ -41,7 +41,7 @@ const Kids = () => {
 
                     </ul>
                 </div>
-                <div className=' border border-black p-10 mx-8 bg-slate-50'>
+                <div className=' border border-black p-10 mx-8 bg-slate-50 m-2'>
                     <span className='text-xl font-semibold p-6'>Baby Clothes</span>
                     <ul className='space-y-2 my-4'>
                         <li className='list-disc'>Napkins</li>
