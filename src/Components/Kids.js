@@ -15,9 +15,9 @@ const Kids = () => {
     return (
         <>
             <div className=' flex justify-center mt-10 flex-wrap'>
-                <img src={w5} alt="" className=' h-[200px] sm:h-[400px] m-1 w-[160px] sm:w-[300px]' />
-                <img src={w4} alt="" className=' h-[200px] sm:h-[400px] m-1 w-[160px] sm:w-[300px]' />
-                <img src={w6} alt="" className=' h-[200px] sm:h-[400px] m-1 w-[160px] sm:w-[300px]' />
+                <img src={w5} alt="" className=' h-[200px] sm:h-[400px] m-1 w-[110px] sm:w-[300px]' />
+                <img src={w4} alt="" className=' h-[200px] sm:h-[400px] m-1 w-[110px] sm:w-[300px]' />
+                <img src={w6} alt="" className=' h-[200px] sm:h-[400px] m-1 w-[110px] sm:w-[300px]' />
             </div>
             <div className=' flex justify-center flex-wrap'>
                 <img src={w3} alt="" className='h-[200px] m-1 w-[200px] sm:w-[300px]' />
