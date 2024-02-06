@@ -5,6 +5,12 @@ import TrendingProducts from './TrendingProducts'
 import ppp from '../Pics/we.png'
 import wer from '../Pics/wer.png'
 import we from '../Pics/we.png'
+import w1 from '../Pics/w1.jpg'
+import w2 from '../Pics/w2.jpg'
+import w3 from '../Pics/w3.jpg'
+import w4 from '../Pics/w4.jpg'
+import w5 from '../Pics/w5.jpg'
+import w6 from '../Pics/w6.jpg'
 
 const Women = () => {
     return (
@@ -19,8 +25,17 @@ const Women = () => {
                 <div><img src={ppp} alt="" className='h-[200px] sm:h-[400px]' /></div>
 
             </div>
-            <h1 className='text-center text-4xl  my-8 font-bold  mt-[3em]'>Winter Collection</h1>
-            <WomenCollection we={we} wer={wer} ppp={ppp}></WomenCollection>
+
+            <div className=' flex justify-center mt-10 flex-wrap'>
+                <img src={w5} alt="" className=' h-[200px] sm:h-[400px] m-1 w-[200px] sm:w-[300px]' />
+                <img src={w4} alt="" className=' h-[200px] sm:h-[400px] m-1 w-[200px] sm:w-[300px]' />
+                <img src={w6} alt="" className=' h-[200px] sm:h-[400px] m-1 w-[200px] sm:w-[300px]' />
+            </div>
+            <div className=' flex justify-center flex-wrap'>
+                <img src={w3} alt="" className='h-[200px] m-1 w-[200px] sm:w-[300px]' />
+                <img src={w6} alt="" className='h-[200px] m-1 w-[200px] sm:w-[300px]' />
+            </div>
+            {/* <WomenCollection we={we} wer={we} ppp={ppp}></WomenCollection> */}
             <TrendingProducts></TrendingProducts>
         </>
     )

@@ -4,13 +4,27 @@ import ll1 from '../Pics/lll-removebg-preview.png'
 import ll2 from '../Pics/ll2-removebg-preview.png'
 import Apicall from './Apicall'
 import WomenCollection from '../Women/WomenCollection'
+import w1 from '../Pics/w1.jpg'
+import w2 from '../Pics/w2.jpg'
+import w3 from '../Pics/w3.jpg'
+import w4 from '../Pics/w4.jpg'
+import w5 from '../Pics/w5.jpg'
+import w6 from '../Pics/w6.jpg'
 
 const Kids = () => {
     return (
         <>
-            <WomenCollection we={ll1} wer={lll} ppp={ll2}></WomenCollection>
+            <div className=' flex justify-center mt-10 flex-wrap'>
+                <img src={w5} alt="" className=' h-[200px] sm:h-[400px] m-1 w-[200px] sm:w-[300px]' />
+                <img src={w4} alt="" className=' h-[200px] sm:h-[400px] m-1 w-[200px] sm:w-[300px]' />
+                <img src={w6} alt="" className=' h-[200px] sm:h-[400px] m-1 w-[200px] sm:w-[300px]' />
+            </div>
+            <div className=' flex justify-center flex-wrap'>
+                <img src={w3} alt="" className='h-[200px] m-1 w-[200px] sm:w-[300px]' />
+                <img src={w6} alt="" className='h-[200px] m-1 w-[200px] sm:w-[300px]' />
+            </div>
 
-            <h1 className='text-center text-5xl my-16 font-bold'>Our Products</h1>
+            <h1 className='text-center  text-3xl sm:text-5xl my-16 font-bold'>Our Products</h1>
             <Apicall></Apicall>
             <div className='p-8 bg-red-500 flex justify-center my-16'>
                 <span className=' text-white font-bold  text-lg sm:text-2xl'>Loving EveryThing ??? Rate Us Now !!!</span>

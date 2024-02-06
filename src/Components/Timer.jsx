@@ -3,6 +3,8 @@ import { useEffect } from 'react'
 import { useState } from 'react'
 import pic1 from '../Pics/pic2.png'
 import pic8 from '../Pics/pic8.jpg'
+import deal from '../Pics/deal.png'
+
 
 
 const Timer = () => {
@@ -52,7 +54,7 @@ const Timer = () => {
                             </div>
                             <div className="shoo"><button>Shop Now</button></div>
                         </div>
-                        <div className="hidden sm:flex items-end "><div className="pix"><img src={pic1} alt="" /></div></div>
+                        <div className="hidden sm:flex items-end "><div className="pix"><img src={deal} alt="" className='mr-20' /></div></div>
                     </div>
                 </div>
             </>
