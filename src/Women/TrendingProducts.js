@@ -33,8 +33,8 @@ const TrendingProducts = () => {
 
             </div> */}
             <div className='flex-col flex sm:flex-row justify-center mt-10 mb-7'>
-                <img src={w1} alt="" className='h-[300px]  w=[95%] sm:w-[400px]' />
-                <img src={w2} alt="" className='h-[300px]  w=[95%] sm:w-[400px] my-10 sm:my-0' />
+                <img src={w1} alt="" className='h-[300px]  w=[95%] sm:w-[400px] m-1' />
+                <img src={w2} alt="" className='h-[300px]  w=[95%] sm:w-[400px] my-10 sm:my-0 m-1' />
             </div>
         </>
     )
